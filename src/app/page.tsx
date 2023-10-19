@@ -15,7 +15,7 @@ const grayColors = [
     "#495057",
     "#343a40",
     "#212529",
-  ]
+  ];
 
   const darkColors = [
     "#C1C2C5",
@@ -28,6 +28,20 @@ const grayColors = [
     "#1A1B1E",
     "#141517",
     "#101113"
+  ];
+
+  const stoneColors = [
+"#FAFAF9",
+"#F5F5F4",
+"#E7E5E4",
+"#D6D3D1",
+"#A8A29E",
+"#78716C",
+"#57534E",
+"#44403C",
+"#292524",
+"#1C1917",
+"#0c0a09",
   ]
 
 export default function Home() {
@@ -41,6 +55,7 @@ export default function Home() {
       <hr className='my-8' />
 
       <ColorsChanger colors={darkColors} name="Dark Colors" />
+      <ColorsChanger colors={stoneColors} name="Stone Colors" />
 
     </main>
   )
